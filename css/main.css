@@ -13,7 +13,7 @@ html {
   color: #512200;
   font-family: Dosis, Sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  margin: 0;
 }
 
 /* Background */
@@ -42,14 +42,15 @@ p {
   border-bottom: 2px #9a816d solid;
   margin: 0 0 1rem;
   color: #512200;
+  padding: 1rem 0;
 }
 
 dl{
   font-family: Georgia, snas-serif;
   color: #785439;
   font-size: .875rem;
-  width: 100%
-  paddinf: 0;
+  width: 100%;
+  padding: 0;
   margin: 0;
 }
 
