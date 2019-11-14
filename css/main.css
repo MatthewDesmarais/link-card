@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Georgia';
+  font-family: Georgia;
   line-height: 1.5;
 }
 
@@ -8,64 +8,94 @@ html {
   box-sizing: inherit;
 }
 
-.link-card {
-  background-color: #dcd4cd;
-  padding: .4em .75em .5em;
-  border-radius: 3px;
-  border: 2px #9a816d solid;
-  color: #785439;
-  margin: 0 0 1rem;
-}
-
-
-.card-title {
-  font-family: 'Georgia', sans-serif;
+/* header */
+.link-card h2 {
   color: #512200;
-  font-size: .875rem;
+  font-family: Dosis, Sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-.card-information {
-  font-size: .875rem;
+/* Background */
+.link-card {
+  background-color: #dcd4cd;
+  padding: 1rem;
+  border-radius: 3px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  display: block;
+  text-decoration: none;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  display: inline-block;
+  font-size: 1rem;
+  color: #785439;
+  text-decoration: none;
 }
 
 .card-facts {
   display: inline-block;
-  border-top: 2px #785439 solid;
-  border-bottom: 2px #785439 solid;
+  border-top: 2px #9a816d solid;
+  border-bottom: 2px #9a816d solid;
   margin: 0 0 1rem;
+  color: #512200;
 }
 
-
-
-.card-fact-keys {
-  width: auto;
-  display: inline-block;
+dl{
+  font-family: Georgia, snas-serif;
+  color: #785439;
+  font-size: .875rem;
+  width: 100%
+  paddinf: 0;
+  margin: 0;
 }
 
-.card-fact-keys ul {
+dt {
+  float: left;
+  width: 50%;
   padding: 0;
+  margin: 0;
 }
 
-.card-fact-values {
-  width: auto;
-  display: inline-block;
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
   font-style: italic;
 }
 
-.cards li {
-  list-style-type: none;
+a {
+  text-decoration: none;
 }
 
-.learnMoreButton {
-  text-decoration: none;
-  color: #f0eee8;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.125rem;
-  text-align: center;
-  display: block;
-  padding: .4em .75em .5em;
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
   background-color: #785439;
+}
+
+.btn-wrap {
+  padding: 1rem 3.5rem 0;
+}
+
+.btn {
+  background-color: #9a816d;
+  padding: .4em .75em .5em;
+  font-family: Dosis, sans-serif;
+  color: #f0eee8;
   border-radius: 8px;
-  width: auto;
+  border-style: none;
+  font-weight: bolder;
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
